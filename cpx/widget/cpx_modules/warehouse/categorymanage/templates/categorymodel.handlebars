@@ -1,0 +1,66 @@
+{{#if isEdit}}
+<input type="hidden" id="isEdit" value="{{isEdit}}">
+<div class="cdmodel-content cpx-form">
+    <div class="cpx-search-info">
+        <span class="addCategoryError"></span>
+    </div>
+	<div class="cpx-search-info">
+		<div class="form-group control-group">
+            <label class="control-label">一级类别名称</label>
+            <div class="controls">
+                <div class="control">
+                    <div id="cid1CategoryDiv" class="select-control">
+                        <input type="hidden" value="{{cid1}}" id="cid1Category"/>
+                        <span class="select-txt">{{cid1_name}}</span>
+                        <i class="select-icon glyphicon glyphicon-chevron-down"></i>
+                        <ul></ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+	</div>
+    <div class="cpx-search-info">
+        <div class="form-group control-group">
+            <label class="control-label">二级类别名称</label>
+            <div class="controls">
+                <div class="control">
+                    <input type="text" class="form-control" id="cdSecondCategoryName" value="{{cid2_name}}">
+                    <input type="hidden" id="cid1" value="{{cid2}}">   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{else}}
+<div class="cdmodel-content cpx-form">
+    <div class="cpx-search-info">
+        <span class="addCategoryError"></span>
+    </div>
+    <div class="cpx-search-info">
+        <div class="form-group control-group">
+            <label class="control-label">一级类别名称</label>
+            <div class="controls">
+                <div class="control">
+                    <div id="cid1CategoryDiv" class="select-control">
+                        <input type="hidden" id="cid1Category"/>
+                        <span class="select-txt hidden"></span>
+                        <input type="text" class="select-txt">
+                        <i class="select-icon glyphicon glyphicon-chevron-down"></i>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cpx-search-info">
+        <div class="form-group control-group">
+            <label class="control-label">二级类别名称</label>
+            <div class="controls">
+                <div class="control">
+                    <input type="text" class="form-control" id="cdSecondCategoryName">   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/if}}

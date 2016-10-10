@@ -1,0 +1,78 @@
+@import "../../../static/css/config.less";
+@import "../../../static/css/mixins.less"; 
+
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top:   @caret-width-base dashed;
+  border-top:   @caret-width-base solid ~"\9"; // IE8
+  border-right: @caret-width-base solid transparent;
+  border-left:  @caret-width-base solid transparent;
+}
+
+// The dropdown wrapper (div)
+.dropup,
+.dropdown {
+  position: relative;
+}
+
+// Prevent the focus on the dropdown toggle when closing dropdowns
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+// The dropdown menu (ul)
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: @zindex-dropdown;
+  display: none; // none by default, but block on "open" of the menu
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0; // override default ul
+  list-style: none;
+  font-size: @font-size-base;
+  text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+  background-color: @dropdown-bg;
+  border: 1px solid @dropdown-fallback-border; // IE8 fallback
+  border: 1px solid @dropdown-border;
+  border-radius: @border-radius-base;
+  .box-shadow(0 6px 12px rgba(0,0,0,.175));
+  background-clip: padding-box;
+}
+
+// &:before{
+//     border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+//     -moz-border-bottom-colors: rgba(0, 0, 0, 0.2);
+//     border-left: 7px solid transparent;
+//     border-right: 7px solid transparent;
+//     content: "";
+//     display: inline-block;
+//     left: 9px;
+//     position: absolute;
+//     top: -7px;
+//   }
+
+
+.mscnd-content{
+	padding: 5px 10px;
+	.control-group{
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.btns{
+		position: relative;
+		overflow: auto;
+		margin-top: 10px;
+		.btn{
+			float: right;
+			margin-left: 20px;
+		}
+	}	
+}

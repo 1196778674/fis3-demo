@@ -1,0 +1,58 @@
+@timeb: 	#edf4fb;
+@orderm: 	#3d9ad1;
+
+
+.search{
+	border-bottom: 1px solid #D6DEE3;
+}
+
+.bill-msg{
+	margin-top: 20px;
+}
+
+table{
+	tr{
+		td{
+			&.col-0{
+				width: 45px;
+			}
+		}
+	}
+	tbody{
+		> tr{
+			&.time,
+			&.order{
+				.fold{
+					display: block;
+					float: left;
+					cursor: pointer;
+					padding-left: 20px;
+					background: url(../../../../static/images/icon-plus.png) 0 4px no-repeat;
+					&.foldless{
+						background: url(../../../../static/images/icon-less.png) 0 4px no-repeat;
+					}
+				}
+			}
+			&.time{
+				> td{
+					background: @timeb;
+				}	
+			}
+			&.order{
+				.orderm{
+					float: right;
+					span{
+						color: @orderm;
+					}
+				}	
+			}
+			> td{
+				&.total{
+					> span{
+						color: #f65e51;
+					}
+				}
+			}	
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "status": 0,
+  "msg": "success",
+  "data": {
+    "list": [
+      {
+        "id": "681",
+        "expenseSn": "160428inouY00001",
+        "type": "17",
+        "userId": "7",
+        "shopId": "1",
+        "preUid": "7",
+        "nextUid": "7",
+        "status": "0",
+        "processStatus": "1",
+        "reason": "",
+        "customTime": "1461843410",
+        "createdAt": "1461843410",
+        "updatedAt": "1461843410",
+        "deletedAt": null,
+        "supplierId": "0",
+        "preExpenseSn": "",
+        "createdTime": "1461843410",
+        "amountTotal": "0.00",
+        "departmentId": "0",
+        "sn": 1,
+        "date": "2016-04-28",
+        "supplierName": "\u81ea\u91c7",
+        "departmentName": "",
+        "processStatusValue": "\u63d0\u4ea4\u7533\u8bf7",
+        "createdUserName": "\u4e54\u77f3\u6d9b",
+        "typeName": "\u4f9b\u5e94\u5546\u7ed3\u7b97",
+        "payee": "",
+        "tab": 1
+      }
+    ],
+    "currentPage": 1,
+    "totalPages": 1
+  }
+}

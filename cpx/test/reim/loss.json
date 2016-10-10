@@ -1,0 +1,791 @@
+{
+    "status": 0,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "id": "2338",
+                "expenseSn": "160505xVvl000001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1462433252",
+                "createdAt": "2016-05-05",
+                "updatedAt": "2016-05-05",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462433253",
+                "amountTotal": "0.00",
+                "exId": "1802",
+                "name": "",
+                "sn": 1,
+                "year": "2016",
+                "date": "05-05",
+                "ctime": "1462433253",
+                "utime": "1462433253",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "维修用品"
+            },
+            {
+                "id": "2335",
+                "expenseSn": "160505vxilm00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1462433217",
+                "createdAt": "2016-05-05",
+                "updatedAt": "2016-05-05",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462433217",
+                "amountTotal": "0.00",
+                "exId": "1800",
+                "name": "",
+                "sn": 2,
+                "year": "2016",
+                "date": "05-05",
+                "ctime": "1462433217",
+                "utime": "1462433217",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "调料"
+            },
+            {
+                "id": "2175",
+                "expenseSn": "160504EPxJW00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1462364980",
+                "createdAt": "2016-05-04",
+                "updatedAt": "2016-05-04",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462364980",
+                "amountTotal": "0.00",
+                "exId": "1673",
+                "name": "",
+                "sn": 3,
+                "year": "2016",
+                "date": "05-04",
+                "ctime": "1462364980",
+                "utime": "1462364980",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "2150",
+                "expenseSn": "1605047pnAC00001",
+                "type": "10",
+                "userId": "4",
+                "shopId": "1",
+                "preUid": "4",
+                "nextUid": "4",
+                "status": "0",
+                "processStatus": "1",
+                "reason": "",
+                "customTime": "1462361695",
+                "createdAt": "2016-05-04",
+                "updatedAt": "2016-05-04",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462361695",
+                "amountTotal": "1476.00",
+                "exId": "1653",
+                "name": "",
+                "sn": 4,
+                "year": "2016",
+                "date": "05-04",
+                "ctime": "1462361695",
+                "utime": "1462361695",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "树春",
+                "nextUserName": "树春",
+                "statusModel": {
+                    "statusName": "提交申请",
+                    "status": "1"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "2138",
+                "expenseSn": "160504KXu7t00001",
+                "type": "10",
+                "userId": "4",
+                "shopId": "1",
+                "preUid": "4",
+                "nextUid": "4",
+                "status": "0",
+                "processStatus": "1",
+                "reason": "",
+                "customTime": "1462352651",
+                "createdAt": "2016-05-04",
+                "updatedAt": "2016-05-04",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462352651",
+                "amountTotal": "1200.00",
+                "exId": "1645",
+                "name": "",
+                "sn": 5,
+                "year": "2016",
+                "date": "05-04",
+                "ctime": "1462352651",
+                "utime": "1462352651",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "树春",
+                "nextUserName": "树春",
+                "statusModel": {
+                    "statusName": "提交申请",
+                    "status": "1"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "2137",
+                "expenseSn": "160504DoQm700001",
+                "type": "10",
+                "userId": "4",
+                "shopId": "1",
+                "preUid": "4",
+                "nextUid": "4",
+                "status": "0",
+                "processStatus": "1",
+                "reason": "",
+                "customTime": "1462352616",
+                "createdAt": "2016-05-04",
+                "updatedAt": "2016-05-04",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1462352616",
+                "amountTotal": "1000.00",
+                "exId": "1644",
+                "name": "",
+                "sn": 6,
+                "year": "2016",
+                "date": "05-04",
+                "ctime": "1462352616",
+                "utime": "1462352616",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "树春",
+                "nextUserName": "树春",
+                "statusModel": {
+                    "statusName": "提交申请",
+                    "status": "1"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "1052",
+                "expenseSn": "160430KZVeP00001",
+                "type": "10",
+                "userId": "1",
+                "shopId": "1",
+                "preUid": "1",
+                "nextUid": "1",
+                "status": "0",
+                "processStatus": "1",
+                "reason": "",
+                "customTime": "1461984904",
+                "createdAt": "2016-04-30",
+                "updatedAt": "2016-04-30",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461984904",
+                "amountTotal": "0.00",
+                "exId": "773",
+                "name": "",
+                "sn": 7,
+                "year": "2016",
+                "date": "04-30",
+                "ctime": "1461984904",
+                "utime": "1461984904",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "郭靖",
+                "nextUserName": "郭靖",
+                "statusModel": {
+                    "statusName": "提交申请",
+                    "status": "1"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "1004",
+                "expenseSn": "160429d62my00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461933475",
+                "createdAt": "2016-04-29",
+                "updatedAt": "2016-04-29",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461933475",
+                "amountTotal": "0.00",
+                "exId": "735",
+                "name": "",
+                "sn": 8,
+                "year": "2016",
+                "date": "04-29",
+                "ctime": "1461933475",
+                "utime": "1461933475",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "调料"
+            },
+            {
+                "id": "988",
+                "expenseSn": "160429yGcd000001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461931221",
+                "createdAt": "2016-04-29",
+                "updatedAt": "2016-04-29",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461931222",
+                "amountTotal": "0.00",
+                "exId": "724",
+                "name": "",
+                "sn": 9,
+                "year": "2016",
+                "date": "04-29",
+                "ctime": "1461931222",
+                "utime": "1461931221",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "员工食堂"
+            },
+            {
+                "id": "986",
+                "expenseSn": "160429eDKdM00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461931125",
+                "createdAt": "2016-04-29",
+                "updatedAt": "2016-04-29",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461931125",
+                "amountTotal": "0.00",
+                "exId": "723",
+                "name": "",
+                "sn": 10,
+                "year": "2016",
+                "date": "04-29",
+                "ctime": "1461931125",
+                "utime": "1461931125",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "海鲜类"
+            },
+            {
+                "id": "967",
+                "expenseSn": "160429Tk9lL00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461928063",
+                "createdAt": "2016-04-29",
+                "updatedAt": "2016-04-29",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461928063",
+                "amountTotal": "0.00",
+                "exId": "710",
+                "name": "",
+                "sn": 11,
+                "year": "2016",
+                "date": "04-29",
+                "ctime": "1461928063",
+                "utime": "1461928063",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "冻品类"
+            },
+            {
+                "id": "817",
+                "expenseSn": "160428nXQ8U00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461854384",
+                "createdAt": "2016-04-28",
+                "updatedAt": "2016-04-28",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461854384",
+                "amountTotal": "0.00",
+                "exId": "612",
+                "name": "",
+                "sn": 12,
+                "year": "2016",
+                "date": "04-28",
+                "ctime": "1461854384",
+                "utime": "1461854384",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "814",
+                "expenseSn": "160428kG7dD00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461854142",
+                "createdAt": "2016-04-28",
+                "updatedAt": "2016-04-28",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461854142",
+                "amountTotal": "0.00",
+                "exId": "610",
+                "name": "",
+                "sn": 13,
+                "year": "2016",
+                "date": "04-28",
+                "ctime": "1461854142",
+                "utime": "1461854142",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "鲜肉类"
+            },
+            {
+                "id": "811",
+                "expenseSn": "160428s6oEK00001",
+                "type": "10",
+                "userId": "5",
+                "shopId": "1",
+                "preUid": "5",
+                "nextUid": "5",
+                "status": "0",
+                "processStatus": "1",
+                "reason": "",
+                "customTime": "1461854072",
+                "createdAt": "2016-04-28",
+                "updatedAt": "2016-04-28",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461854072",
+                "amountTotal": "0.00",
+                "exId": "608",
+                "name": "",
+                "sn": 14,
+                "year": "2016",
+                "date": "04-28",
+                "ctime": "1461854072",
+                "utime": "1461854072",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "武林柱",
+                "nextUserName": "武林柱",
+                "statusModel": {
+                    "statusName": "提交申请",
+                    "status": "1"
+                },
+                "materialTypeContent": "海鲜类"
+            },
+            {
+                "id": "809",
+                "expenseSn": "160428ycZ0u00001",
+                "type": "10",
+                "userId": "2",
+                "shopId": "1",
+                "preUid": "2",
+                "nextUid": "0",
+                "status": "0",
+                "processStatus": "5",
+                "reason": "",
+                "customTime": "1461853685",
+                "createdAt": "2016-04-28",
+                "updatedAt": "2016-04-28",
+                "deletedAt": null,
+                "supplierId": "0",
+                "departmentId": "0",
+                "preExpenseSn": "",
+                "createdTime": "1461853685",
+                "amountTotal": "0.00",
+                "exId": "606",
+                "name": "",
+                "sn": 15,
+                "year": "2016",
+                "date": "04-28",
+                "ctime": "1461853685",
+                "utime": "1461853685",
+                "typeModel": {
+                    "typeName": "损耗",
+                    "type": "10"
+                },
+                "supplierModel": {
+                    "id": "0",
+                    "name": "自采"
+                },
+                "shopModel": {
+                    "id": "1",
+                    "name": "厨品秀"
+                },
+                "departmentModel": {
+                    "id": "0",
+                    "name": ""
+                },
+                "operationUser": null,
+                "createUserName": "小徐徐",
+                "nextUserName": "小徐徐",
+                "statusModel": {
+                    "statusName": "完成",
+                    "status": "5"
+                },
+                "materialTypeContent": "维修用品"
+            }
+        ],
+        "total": "36",
+        "currentPage": 1,
+        "totalPages": 3
+    }
+}

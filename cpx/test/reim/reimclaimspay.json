@@ -1,0 +1,90 @@
+{
+    "status": 0,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "id": "1509",
+                "createdAt": "2016.05.03 12.11",
+                "expenseSn": "1605032xMsc00001",
+                "beneficiary": "",
+                "expenseType": "能源费用",
+                "endReviewer": "褚福程",
+                "amountTotal": "12121.00",
+                "paymentStatus": "等待付款"
+            },
+            {
+                "id": "411",
+                "createdAt": "2016.04.28 16.06",
+                "expenseSn": "160428IOvFf00001",
+                "beneficiary": "",
+                "expenseType": "供应商结算",
+                "endReviewer": "秦海波",
+                "amountTotal": "2.00",
+                "paymentStatus": "已付讫"
+            },
+            {
+                "id": "394",
+                "createdAt": "2016.04.28 15.46",
+                "expenseSn": "160428GjIiY00001",
+                "beneficiary": "",
+                "expenseType": "差旅费用",
+                "endReviewer": "秦海波",
+                "amountTotal": "6.00",
+                "paymentStatus": "已付讫"
+            },
+            {
+                "id": "239",
+                "createdAt": "2016.04.27 21.15",
+                "expenseSn": "160427xSQuD00001",
+                "beneficiary": "郭靖",
+                "expenseType": "供应商结算",
+                "endReviewer": "杨慧0426",
+                "amountTotal": "0.00",
+                "paymentStatus": "等待付款"
+            },
+            {
+                "id": "136",
+                "createdAt": "2016.04.27 16.18",
+                "expenseSn": "1604271Z52F00001",
+                "beneficiary": "",
+                "expenseType": "采购费用",
+                "endReviewer": "范冰冰才怪",
+                "amountTotal": "21.00",
+                "paymentStatus": "已付讫"
+            },
+            {
+                "id": "88",
+                "createdAt": "2016.04.27 15.04",
+                "expenseSn": "160427sNEP900001",
+                "beneficiary": "",
+                "expenseType": "采购费用",
+                "endReviewer": "范冰冰才怪",
+                "amountTotal": "22.00",
+                "paymentStatus": "部分付款"
+            },
+            {
+                "id": "52",
+                "createdAt": "2016.04.26 22.09",
+                "expenseSn": "160426n5i2T00001",
+                "beneficiary": "郭靖",
+                "expenseType": "供应商结算",
+                "endReviewer": "郭靖",
+                "amountTotal": "12.00",
+                "paymentStatus": "部分付款"
+            },
+            {
+                "id": "11",
+                "createdAt": "2016.04.26 20.52",
+                "expenseSn": "160426YrNxh00001",
+                "beneficiary": "",
+                "expenseType": "差旅费用",
+                "endReviewer": "郭靖",
+                "amountTotal": "58.00",
+                "paymentStatus": "部分付款"
+            }
+        ],
+        "currentPage": 1,
+        "totalPages": 1
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>采购单</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../widget/cpx_modules/purchase/paidsearch/paidsearch.less">
+</head>
+<body>
+    <div class="wrapper paidsearch">
+        <div class="bar-top cpx-form clearfix">
+            <div class="form-group control-group">
+                <label class="control-label">报销编号:</label>
+                <div class="controls">
+                    <div class="control">
+                        <input type="text" class="form-control input-ph" id="reimNumber" value="请输入编号">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">创建人:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="createPerson">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">供应商:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="supplier">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <div class="control">
+                        <a href="javascript:;" class="ms-cnd dropdown" id="msCnd">更多条件</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-right">
+                <button type="button" class="btn btn-primary" id="search">检索</button>
+                <button type="button" class="btn btn-primary" id="create">发起结算</button>
+            </div>
+        </div>
+        <div class="table-control" id="table">
+            <p>收款单位：自采</p>
+            <table class="table table-condensed table-bordered skt">
+                <thead>
+                    <tr>
+                        <td class="col-0"></td>
+                        <td class="col-2">报销单号</td>
+                        <td class="col-3">创建时间</td>
+                        <td class="col-4">创建人</td>
+                        <td class="col-5">应付/元</td>
+                        <td class="col-6">已付/元</td>
+                        <td class="col-7">未付/元</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="order">
+                        <td class="col-0">
+                            <span class="fold" data-id="34567"></span>
+                        </td>
+                        <td class="col-2">123456789</td>
+                        <td class="col-3">2016-04-15</td>
+                        <td class="col-4">赵日天</td>
+                        <td class="col-5">500</td>
+                        <td class="col-6">200</td>
+                        <td class="col-7">300</td>
+                    </tr>
+                    <tr class="paydetail hidden 34567">
+                        <td colspan="7">
+                            <p>
+                                <span class="amount">现金付款：200元</span>
+                                <span class="name">赵日天</span>
+                                <span class="time">2016-04-26</span>
+                            </p>
+                            <p>
+                                <span class="amount">现金付款：200元</span>
+                                <span class="name">赵日天</span>
+                                <span class="time">2016-04-26</span>
+                            </p>
+                            <p>
+                                <span class="amount">现金付款：200元</span>
+                                <span class="name">赵日天</span>
+                                <span class="time">2016-04-26</span>
+                            </p>
+                        </td>    
+                    </tr>    
+                </tbody>
+            </table>        
+        </div>      
+    </div> 
+    <script type="text/javascript" src="../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../widget/modules/temporary/common.js"></script>
+    
+    <script type="text/javascript">
+        seajs.use('../../widget/cpx_modules/purchase/paidsearch', function(paidsearch) {
+            paidsearch.init();
+        });
+    </script>  
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+.cpx-storeallocationin-box .cpx-search-form{
+  padding-bottom: 15px;
+}
+.cpx-storeallocationin-box .approve-type-select{
+  float: left;
+  position: relative;
+  width: 85px;
+    height: 25px;
+    margin-top: 5px;
+  margin-left: 20px;
+}
+.cpx-storeallocationin-box .approve-type-select .select-icon{
+  background: #528bee;
+  color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.cpx-storeallocationin-box .approve-type-select ul{
+  width: 85px;
+}
+.cpx-storeallocationin-box .btn.createBtn{
+  float: right;
+  background: #64a4f2;
+  color: #fff;
+  font-weight: bolder;
+  border-color: #64a4f2;
+  border-radius: 0;
+  height: 35px;
+  line-height: 35px;
+  width: 105px;
+  text-align: center;
+  padding: 0;
+  border-top-right-radius: 4px;
+}
+.cpx-storeallocationin-box .btn.createBtn:hover,
+.cpx-storeallocationin-box .btn.createBtn:focus{
+  background-color: #528bee;
+  border-color: #528bee;
+}
+.cpx-storeallocationin-box .btn.createBtn span{
+  margin-right: 5px;
+}
+.cpx-storeallocationin-box form.approve-search-form .form-group{
+  margin-right: 15px;
+}
+.cpx-storeallocationin-box .search-sub-btn{    
+  float: right;
+  margin-right: 133px;
+}

@@ -1,0 +1,13 @@
+{{#each list}}
+<tr>
+    <td class="col-1">{{sn}}</td>
+    <td class="col-2">{{createdAt}}</td>
+    <td class="col-3">{{expenseSn}}</td>
+    <td class="col-4">{{createUserName}}</td>
+    <td class="col-5">{{nextUserName}}</td>
+    <td class="col-6">{{statusModel.statusName}}</td>
+    <td class="col-7">
+        <a class="btn btn-default" target="_blank" href="/web/expense/lossInfo?expenseSn={{expenseSn}}&type={{type}}" data-id="">查看</a>
+    </td>
+</tr>
+{{/each}}

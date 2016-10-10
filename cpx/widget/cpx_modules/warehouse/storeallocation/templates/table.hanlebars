@@ -1,0 +1,10 @@
+<tr>
+    <td class="col-1">1</td>
+    <td class="col-2">2015-12-31</td>
+    <td class="col-3">160125xHHR200001</td>
+    <td class="col-4">明泽食府</td>
+    <td class="col-5">待接收</td>
+    <td class="col-6">
+        <a class="btn btn-default" target="_blank" href="/warehouse/allocationdetail?cost=0" data-id="">查看</a>
+    </td>
+</tr>

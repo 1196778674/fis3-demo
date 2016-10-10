@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+.cpx-categorymage-box .cpx-search-form{
+	padding-bottom: 10px;
+}
+.cpx-categorymage-box form.approve-search-form .form-group{
+	margin-right: 15px;	
+}
+.cpx-categorymage-box form.approve-search-form button{
+	float: right;
+}
+
+.cd-dialog .ui-dialog-footer button:first-child{margin-right: 55px;}
+.cd-dialog .select-control input.select-txt{width: 127px; height: 23px; border: 0; padding: 0 0 0 10px;}
+.cdmodel-content .control-group .control-label{color: #333;}
+.cdmodel-content #cdSecondCategoryName{padding-left: 10px;}
+.cdmodel-content .select-control{border: 1px solid #bbb;}
+.cdmodel-content textarea{border: 1px solid #bbb; width: 460px; padding: 5px; line-height: 20px; height: 52px; }
+.cdmodel-content .addCategoryError{ color: red; margin-bottom: 10px; display: block;}
+
+

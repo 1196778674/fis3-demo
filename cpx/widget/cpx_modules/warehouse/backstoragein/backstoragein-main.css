@@ -1,0 +1,136 @@
+@charset 'utf-8';
+
+.cpx-form .control-group .controls span{
+	color: #fff;
+}
+.cpx-backstoragein-box .cpx-search-info .form-group{
+	width: 32.98455%;
+}
+.cpx-backstoragein-box .cpx-box-header .storagein-type{
+	background: #e4e8ee;
+    padding: 5px;
+    margin-left: 19px;
+    color: #528bee;
+}
+.cpx-backstoragein-box .cpx-box-header .beStorageIn{
+	float: right;
+	border-top-right-radius: 4px; 
+}
+.cpx-backstoragein-box .cpx-box-header .beStop{
+	float: right;
+	margin-right: 15px;
+}
+.cpx-backstoragein-box .cpx-search-form{
+	padding-bottom: 5px;
+}
+.cpx-backstoragein-box .table-bordered > tbody > tr > td{
+	padding: 10px 5px;
+}
+.purAppro .cpx-box-header{
+	border-radius: 0;
+    background: #dee3eb;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #475057;
+}
+
+.cpx-backstoragein-box .table > thead > tr.title > td{
+	background: #4b5c69;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.cpx-backstoragein-box .table tbody td.col-1,
+.cpx-backstoragein-box .table thead td.col-1{
+	width: 100px;
+}
+.cpx-backstoragein-box .table tbody td.col-2,
+.cpx-backstoragein-box .table thead td.col-2{
+	width: 100px;		
+}
+.cpx-backstoragein-box .table tbody td.col-3,
+.cpx-backstoragein-box .table thead td.col-3{
+	width: 155px;		
+}
+.cpx-backstoragein-box .table tbody td.col-4,
+.cpx-backstoragein-box .table thead td.col-4{
+	width: 95px;		
+}
+.cpx-backstoragein-box .table tbody td.col-5,
+.cpx-backstoragein-box .table thead td.col-5{
+	position: relative;
+	width: 110px;		
+}
+.cpx-backstoragein-box .table tbody td.col-6,
+.cpx-backstoragein-box .table thead td.col-6{
+	width: 80px;		
+}
+.cpx-backstoragein-box .table tbody td.col-7,
+.cpx-backstoragein-box .table thead td.col-7{
+	width: 80px;		
+}
+
+table tbody td > span.active{
+	width: 100px;
+	margin-left: -50px;
+}
+
+.cpx-backstoragein-box .table td input{
+	height: 25px;
+	text-align: center;
+}
+
+.cpx-backstoragein-box .addPurDes{
+	float: right;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    width: 110px;	
+}
+.cpx-backstoragein-box .addPurDes:hover,
+.cpx-backstoragein-box .addPurDes:focus{
+  background: #528bee;
+  border-color: #528bee;
+}
+.cpx-backstoragein-box .fq-control{
+	position: relative;
+}
+.cpx-backstoragein-box table tr .fq-query{
+	height: 25px;
+	padding: 0 10px;
+	font-size: 12px;
+	text-align: left;
+}
+.cpx-backstoragein-box .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+  font-size: 12px;
+}
+.cpx-backstoragein-box .form-control:-ms-input-placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+.cpx-backstoragein-box .form-control::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+.cpx-backstoragein-box .autocompleter{
+	top: 25px;
+}
+.cpx-backstoragein-box .autocompleter-hint{
+  top: -25px;
+  padding: 0 12px;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+}
+.cpx-backstoragein-box .autocompleter-item {
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+.adm-control{width: 100%; height: 25px; position: relative; background: #fff; border-radius: 3px; border: 1px solid #ccc; }
+.adm-control .adm-input{border: 0; width: 63px; height: 23px !important; left: 18px;	 text-align: center; position: absolute;}
+.adm-control i{top: 0px; height: 25px; width: 18px; color: #528bee; font-style: normal; position: absolute; text-align: center; padding-top: 5px; cursor: pointer;}
+.adm-control .add{right: 0px;}
+.adm-control .minus{left: 0px;}
+

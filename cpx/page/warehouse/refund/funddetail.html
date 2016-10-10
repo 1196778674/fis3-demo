@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>退货详情</title>
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../../widget/cpx_modules/purchase/funddetail/funddetail.less">
+</head>
+<body>
+    <div class="wrapper funddetail">
+        <div class="bar-top cpx-form clearfix">
+            <div class="form-group control-group">
+                <label class="control-label">单号:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">160425Tfjjo00001</span>    
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">关联单据:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">160425Tfjjo00001</span>        
+                    </div>
+                </div>
+            </div>
+                        <div class="form-group control-group">
+                <label class="control-label">退货类型:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">直接入库退货</span>        
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">创建时间:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">2016年04月17日</span>        
+                    </div>
+                </div>
+            </div>
+             <div class="form-group control-group">
+                <label class="control-label">供应商:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">胜利商贸</span>        
+                    </div>
+                </div>
+            </div>
+            <div class="bar-right">
+                <button type="button" class="btn btn-primary" id="printf">打印</button>
+                <button type="button" class="btn btn-primary" id="edit">编辑</button>
+                <button type="button" class="btn btn-default" id="delete">删除</button>
+            </div>
+        </div>
+        <div class="bar-main">
+            <!-- 详情 -->
+            <div class="table-control">
+                <table class="table table-condensed table-bordered">
+                    <thead>
+                        <tr>
+                            <td class="sn">序号</td>
+                            <td class="col-1">物料编码</td>
+                            <td class="col-2">物料名称</td>
+                            <td class="col-3">规格</td>
+                            <td class="col-4">退货单价/元</td>
+                            <td class="col-7">退货数量</td>
+                            <td class="col-5">主单位</td>
+                            <td class="col-6">辅单位</td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="sn">1</td>
+                            <td class="col-1">100100</td>
+                            <td class="col-2">五得利面粉</td>
+                            <td class="col-3">25KG/袋</td>
+                            <td class="col-4">100</td>
+                            <td class="col-5">20</td>
+                            <td class="col-6 c-right">袋</td>
+                            <td class="col-6 c-left">100袋</td>
+                        </tr>        
+                    </tbody>
+                </table>        
+            </div> 
+            <!-- 审批流程 -->
+            <div class="approve-type-control">
+                <div class="approve-panel">
+                    <span>审批流程</span>
+                </div>
+                <ul class="approve-type-list">
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li>
+                        <span class="person"></span>
+                        <span class="des">这是审批话语，这是审批话语，这是审批话语。</span>   
+                    </li>
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li class="last">
+                        <span class="person">赵日天</span>
+                        <span class="status">审批中</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                </ul>    
+            </div>
+        </div>       
+    </div> 
+    <script type="text/javascript" src="../../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/ligerui/base.js"></script>
+
+    <script type="text/javascript">
+        seajs.use('../../../widget/cpx_modules/purchase/funddetail/funddetail', function(funddetail) {
+            funddetail.init();
+        });
+    </script>  
+</body>
+</html>

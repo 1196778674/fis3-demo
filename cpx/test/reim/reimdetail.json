@@ -1,0 +1,19 @@
+{
+	"status": 0,
+  	"msg": "ok",
+  	"data": {
+  		"list": [
+  			{
+  				"id": "1",
+  				"money": "122.22",
+  				"descript": "这是明细..."
+  			},
+  			{
+  				"id": "1",
+  				"money": "12.98",
+  				"descript": "明细..."
+  			}
+  		],
+  		"images": []
+  	}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>库房结帐</title>
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../../widget/cpx_modules/purchase/srcheckout/srcheckout.less">
+</head>
+<body>
+    <div class="wrapper srcheckout">
+        
+        <div class="bar-main">
+            <!-- 详情 -->
+            <div class="table-control">
+                <table class="table table-condensed table-bordered">
+                    <thead>
+                        <tr>
+                            <td class="sn">序号</td>
+                            <td class="col-1">业务时间</td>
+                            <td class="col-2">状态</td>
+                            <td class="col-3">操作</td>
+                            <td class="col-4">结帐操作人</td>
+                            <td class="col-5">结帐时间</td>
+                            <td class="col-6">台帐</td>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="sn">1</td>
+                            <td class="col-1">100100</td>
+                            <td class="col-2">五得利面粉</td>
+                            <td class="col-3">25KG/袋</td>
+                            <td class="col-4">100</td>
+                            <td class="col-5">袋</td>
+                            <td class="col-6 c-right">辅单位</td>
+                            
+                        </tr>        
+                    </tbody>
+                </table>        
+            </div> 
+   
+        </div>       
+    </div> 
+    <script type="text/javascript" src="../../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/ligerui/base.js"></script>
+
+    <script type="text/javascript">
+        seajs.use('../../../widget/cpx_modules/purchase/srcheckout/srcheckout', function(srcheckout) {
+            srcheckout.init();
+        });
+    </script>  
+</body>
+</html>

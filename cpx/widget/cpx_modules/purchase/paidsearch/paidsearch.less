@@ -1,0 +1,75 @@
+
+.paidsearch{
+	.bar-top{
+		border-bottom: 1px solid #d6dee3;
+	}
+}
+
+.table-control{
+	> p {
+		border-left: 1px solid #d6dee3;
+		border-right: 1px solid #d6dee3;
+		background: #fff;
+	    line-height: 32px;
+	    padding-left: 10px;
+	    margin: 0;
+	    font-size: 13px;
+	    color: #3d9ad1;
+	}
+}
+
+.table{
+	> tr{
+		td{
+			&.col-0{
+				width: 40px;	
+			}
+		}
+	}
+	> tbody{
+		> tr{
+			&.paydetail{
+				> td{
+					padding: 0;
+				}
+				p{
+					padding: 0;
+					margin: 0;
+					height: 32px;
+					line-height: 32px;
+					clear: both;
+					border-bottom: 1px solid #d6dee3;
+					&:last-child{
+						border-bottom: 0;
+					}
+				}
+				span{
+					margin-right: 15px;
+					display: block;
+					float: right;
+					text-align: left;
+					&.time{
+						width: 80px;
+					}	
+					&.name{
+						width: 75px;
+					}
+					&.amount{
+						width: 160px;
+					}
+				}
+			}
+			> td{
+				.fold{
+					width: 11px;
+				    height: 11px;
+				    padding: 0;
+				    background-position: 0 !important;
+				    margin-left: 9px;
+				    margin-top: 2px;
+				    cursor: pointer;
+				}
+			}
+		}
+	}
+}

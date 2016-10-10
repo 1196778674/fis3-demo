@@ -1,0 +1,65 @@
+{
+  "status": 0,
+  "msg": "success",
+  "data": {
+    "list": [
+      {
+        "id": "365",
+        "expenseSn": "160428gxU1R00001",
+        "type": "5",
+        "userId": "7",
+        "shopId": "1",
+        "preUid": "7",
+        "nextUid": "7",
+        "status": "0",
+        "processStatus": "1",
+        "reason": "asfageg",
+        "customTime": "1461812755",
+        "createdAt": "2016-04-28",
+        "updatedAt": "2016-04-28",
+        "deletedAt": null,
+        "supplierId": "0",
+        "departmentId": "2",
+        "preExpenseSn": "",
+        "createdTime": "1461812755",
+        "amountTotal": 0,
+        "exId": "282",
+        "name": "",
+        "sn": 1,
+        "year": "2016",
+        "date": "04-28",
+        "ctime": "1461812755",
+        "utime": "1461812755",
+        "typeModel": {
+          "typeName": "\u91c7\u8d2d\u7533\u8bf7",
+          "type": "5"
+        },
+        "supplierModel": {
+          "id": "0",
+          "name": "\u81ea\u91c7"
+        },
+        "shopModel": {
+          "id": "1",
+          "name": "\u53a8\u54c1\u79c0"
+        },
+        "departmentModel": {
+          "id": "2",
+          "name": "\u51fa\u7eb3\u90e8"
+        },
+        "operationUser": null,
+        "createUserName": "\u4e54\u77f3\u6d9b",
+        "nextUserName": "\u4e54\u77f3\u6d9b",
+        "statusModel": {
+          "statusName": "\u63d0\u4ea4\u7533\u8bf7",
+          "status": "1"
+        },
+        "materialTypeContent": "\u5458\u5de5\u4f19\u98df"
+      }
+    ],
+    "Total": "1",
+    "next": false,
+    "minId": "365",
+    "currentPage": 1,
+    "totalPages": 2
+  }
+}

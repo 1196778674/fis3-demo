@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>采购单</title>
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../../widget/cpx_modules/purchase/createpurchase/createpurchase.less">
+</head>
+<body>
+    <div class="wrapper createpurchase">
+        <div class="bar-top cpx-form clearfix">
+            <div class="cpx-form-info">
+                <div class="form-group control-group">
+                    <label class="control-label">采购部门:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="ui-combo-wrap" id="purchaseDepartment">
+                                <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                                <i class="trigger"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">期望提交时间:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <div class="calender-control">
+                                <input class="calender-data date-img" id="start" type="text" name="start" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">审批人:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="ui-combo-wrap" id="approvePerson">
+                                <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                                <i class="trigger"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cpx-form-info">
+                <div class="form-group control-group">
+                    <label class="control-label">采购部门:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <textarea id="purMsg">请输入采购原因（选填）</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar-right">
+                    <button type="button" class="btn btn-primary" id="create">提交审批</button>
+                </div>    
+            </div>
+        </div>
+        <!-- 加载表单数据 -->
+        <div class="cpx-table-control grid-wrap" id="maingrid"></div>       
+    </div> 
+    <script type="text/javascript" src="../../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/ligerui/base.js"></script>
+    
+    <script type="text/javascript">
+        seajs.use('../../../widget/cpx_modules/purchase/createpurchase/createpurchase', function(createpurchase) {
+            createpurchase.init();
+        });
+    </script>  
+</body>
+</html>

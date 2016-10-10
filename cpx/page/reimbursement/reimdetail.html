@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>发起报销</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../widget/cpx_modules/reimbursement/reimdetail/reimdetail.less">
+</head>
+<body>
+    <div class="wrapper reimdetail">
+        <div class="bar-top cpx-form clearfix">
+            <div class="form-group control-group">
+                <label class="control-label">单号:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">160425Tfjjo00001</span>    
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">报销类型:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">其他报销</span>    
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">报销人:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">赵日天</span>        
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">创建时间:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="text">2016年04月25日 15时09分</span>        
+                    </div>
+                </div>
+            </div>
+            <div class="bar-right">
+                <!-- 我的发起详情用 -->
+                <button type="button" class="btn btn-primary hide" id="revocation">撤销</button>
+                <button type="button" class="btn btn-primary hide" id="modify">修改</button>
+                <!-- 我的审批详情用 -->
+                <button type="button" class="btn btn-primary" id="agree">同意</button>
+                <button type="button" class="btn btn-primary" id="rejectUp">驳回上级</button>
+                <button type="button" class="btn btn-primary" id="rejectEnd">驳回发起人</button>
+
+                <button type="button" class="btn btn-default" id="printf">打印</button>
+            </div>
+        </div>
+        <div class="bar-main">
+            <div class="cpx-table-control grid-wrap" id="maingrid"></div> 
+            <div class="createbill-upload-control upload-controls">
+                <div class="cpx-box-header">
+                    <span>报销单图片</span>
+                </div>
+                <div class="upload-control">
+                    <div class="upload-info">
+                        <div class="upload-btn">
+                            <a target="_blank" href="http://cpx-oss.oss-cn-beijing.aliyuncs.com/201604251608171033phpSalxlM.jpg">
+                                <img src="http://cpx-oss.oss-cn-beijing.aliyuncs.com/201604251608171033phpSalxlM.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="approve-type-control">
+                <div class="approve-panel">
+                    <span>审批流程</span>
+                </div>
+                <ul class="approve-type-list">
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li>
+                        <span class="person"></span>
+                        <span class="des">这是审批话语，这是审批话语，这是审批话语。</span>   
+                    </li>
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li class="last">
+                        <span class="person">赵日天</span>
+                        <span class="status">审批中</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                </ul>    
+            </div>
+        </div>       
+    </div> 
+    <script type="text/javascript" src="../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="./widget/modules/ligerui/base.js"></script>
+
+    <script type="text/javascript">
+        seajs.use('../../widget/cpx_modules/reimbursement/reimdetail/reimdetail', function(reimdetail) {
+            reimdetail.init();
+        });
+    </script>  
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>厨品秀 财务办公</title>
+	<link rel="stylesheet" href="./static/css/base.less">
+	<link rel="stylesheet" href="./static/css/default.less">
+	<script type="text/javascript">
+		//全局
+		SYSTEM = {
+			version: '2.5.0',
+			employee: [
+				{id: 1234, name: '张三'},
+				{id: 1235, name: '赵日天'},
+				{id: 1236, name: '叶良辰'}
+			],
+			reimType: [
+				{id: 0, name: '全部'},
+				{id: 1, name: '审批中'},
+				{id: 2, name: '被驳回'},
+				{id: 3, name: '已完成'},
+				{id: 4, name: '已失效'}
+			],
+            storageInType: [
+                {id: 0, name: '全部'},
+                {id: 1, name: '待入库'},
+                {id: 2, name: '已终止'},
+                {id: 3, name: '已入库'},
+            ],
+			approveKind:[
+				{id: 0, name: '全部'},
+				{id: 1, name: '采购费用'},
+				{id: 2, name: '差旅费用'},
+				{id: 3, name: '其他费用'}	
+			],
+			approveType: [
+				{id: 0, name: '待审批'},
+				{id: 1, name: '已审批'}	
+			],
+			department: [
+				{id: 0, name: '会计部'},
+				{id: 1, name: '采购部'},
+				{id: 2, name: '鲍鱼房'}	
+			],
+            storageInKind: [
+                {id: 9, name: '入库申请'},
+                {id: 12, name: '盘盈入库'}
+            ],
+            supplier:[
+                {id:1, name:'测试1'},
+                {id:2, name:'测试2'}
+            ],
+            storageOutKind:[
+                {id:1,name:'直接出库'},
+                {id:2,name:'领用出库'}
+            ],
+            storageOutType:[
+                {id:1,name:'待出库'},
+                {id:2,name:'已出库'}
+            ],
+            material:[
+                {id: 0, name: '白菜'},
+                {id: 1, name: '萝卜'},
+                {id: 2, name: '番茄'}
+            ],
+            refundKind: [
+                {id: 1, name: '直接入库退货'},
+                {id: 2, name: '采购入库退货'},
+                {id: 3, name: '直接发起退货'}
+            ],
+            supplier: [
+            	{id: 1, name: '张三烟酒'},
+            	{id: 2, name: '文正员工蔬菜店'}
+            ],
+            invoiceType: [
+            	{id: 1, name: '增值发票'},
+            	{id: 2, name: '普通发票'}
+            ],
+            payType: [
+                {id: 1, name: '支票'},
+                {id: 2, name: '现金'}
+            ],
+            firstCategory: [
+            	{id: 0, name: '全部'},
+            	{id: 1, name: '蔬菜类'},
+            	{id: 2, name: '水果类'}
+            ]
+		};
+	</script>
+</head>
+<body>
+	<div id="cpxContainer" class="cpx-container">
+		<link rel="import" href="page/header/header.html?__inline">
+		<div class="cpx-main-container">
+			<link rel="import" href="page/leftnav/leftnav.html?__inline">
+			<div class="cpx-right">
+				<div id="mainBg" class="f-main">
+					<div class="page-tab l-tab" id="page-tab">
+								
+					</div>
+				</div>		
+			</div>
+		</div>	
+	</div>
+
+	<script type="text/javascript" src="./widget/modules/jquery/jquery.js"></script>
+	<script type="text/javascript" src="./widget/modules/ligerui/base.js"></script>
+	<script type="text/javascript" src="./widget/modules/ligerui/tab.js"></script>
+	<script type="text/javascript" src="./widget/modules/ligerui/menu.js"></script>
+	<script type="text/javascript" src="./widget/modules/temporary/default.js"></script>
+</body>
+</html>

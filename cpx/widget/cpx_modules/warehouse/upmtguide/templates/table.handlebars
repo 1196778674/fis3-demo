@@ -1,0 +1,16 @@
+{{#each list}}
+<tr>
+    <td class="col-1">{{materialSn}}</td>
+    <td class="col-2">{{name}}</td>
+    <td class="col-3">{{firstCategorySn}}</td>
+    <td class="col-4">{{firstCategory}}</td>
+    <td class="col-5">{{secondCategorySn}}</td>
+    <td class="col-6">{{secondCategory}}</td>
+    <td class="col-7">{{specification}}</td>
+    <td class="col-8">{{unitName}}</td>
+    <td class="col-9">
+        <a class="btn btn-default editMaterail" href="javascript:;">编辑</a>
+        <a class="btn btn-default ld delMaterail" href="javascript:;">删除</a>     
+    </td>
+</tr>
+{{/each}}

@@ -1,0 +1,15 @@
+{{#each categoryList}}
+<tr>
+    <td class="col-1">{{sn}}</td>
+    <td class="col-2">{{cid1_id}}</td>
+    <td class="col-3">{{cid1_name}}</td>
+    <td class="col-4">{{cid2_id}}</td>
+    <td class="col-5">{{cid2_name}}</td>
+    <td class="col-6">{{createdAt}}</td>
+    <td class="col-7">{{createdAtUserName}}</td>
+    <td class="col-8">
+        <a class="btn btn-default editCategory" href="javascript:;">编辑</a>
+        <a data-id="{{id}}" class="btn btn-default deleteCategory hidden" href="javascript:;">删除</a>
+    </td>
+</tr>
+{{/each}}

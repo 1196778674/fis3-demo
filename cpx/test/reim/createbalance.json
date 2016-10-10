@@ -1,0 +1,72 @@
+{
+    "status": 0, 
+    "msg": "success", 
+    "data": {
+        "list": [
+            {
+                "id": 88, 
+                "expenseSn": "160429DOhgY00001", 
+                "supplierId": "0", 
+                "shopId": "1", 
+                "code": "3", 
+                "number": "3", 
+                "status": "未结算", 
+                "amount": "0.00", 
+                "start": "1461917565", 
+                "end": "1461917565", 
+                "lockExpenseSn": "", 
+                "userId": "9", 
+                "updatedAt": "1461917758", 
+                "createdAt": "1461917758", 
+                "deletedAt": null, 
+                "createdAtUserName": "范冰冰才怪", 
+                "supplierName": "自采", 
+                "date": "2016-04-29"
+            }, 
+            {
+                "id": 86, 
+                "expenseSn": "160429ExiYh00001", 
+                "supplierId": "0", 
+                "shopId": "1", 
+                "code": "7", 
+                "number": "7", 
+                "status": "未结算", 
+                "amount": "0.00", 
+                "start": "1461845879", 
+                "end": "1461845879", 
+                "lockExpenseSn": "", 
+                "userId": "9", 
+                "updatedAt": "1461915930", 
+                "createdAt": "1461915930", 
+                "deletedAt": null, 
+                "createdAtUserName": "范冰冰才怪", 
+                "supplierName": "自采", 
+                "date": "2016-04-29"
+            }, 
+            {
+                "id": 73, 
+                "expenseSn": "1604289N9WC00001", 
+                "supplierId": "0", 
+                "shopId": "1", 
+                "code": "3", 
+                "number": "3", 
+                "status": "未结算", 
+                "amount": "0.00", 
+                "start": "1461846602", 
+                "end": "1461846602", 
+                "lockExpenseSn": "", 
+                "userId": "8", 
+                "updatedAt": "1461850926", 
+                "createdAt": "1461850926", 
+                "deletedAt": null, 
+                "createdAtUserName": "褚福程", 
+                "supplierName": "自采", 
+                "date": "2016-04-28"
+            }
+        ], 
+        "amountTotal": 0, 
+        "currentPage": 1, 
+        "totalPages": 1,
+        "Total": 100
+    }
+}

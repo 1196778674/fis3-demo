@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>发票详情</title>
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../../widget/cpx_modules/purchase/balancedetail/balancedetail.less">
+</head>
+<body>
+    <div class="wrapper balancedetail">
+        <div class="bar-top cpx-form clearfix search">
+            <div class="search-info">
+                <div class="form-group control-group">
+                    <label class="control-label">单号:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">160425Tfjjo00001</span>    
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">供应商:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">北京胜利蔬菜贸易有限公司</span>    
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">报销类型:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">供应商结算</span>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-info">
+                <div class="form-group control-group">
+                    <label class="control-label">账单时间:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">2016年04月25日 15时09分</span>        
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">报销人:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">赵日天</span>        
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group control-group">
+                    <label class="control-label">总金额:</label>
+                    <div class="controls">
+                        <div class="control">
+                            <span class="text">3500（壹仟贰佰弎拾私肆圆）</span>    
+                        </div>
+                    </div>
+                </div> 
+                <div class="bar-right">
+                    <button type="button" class="btn btn-primary" id="modify">修改</button>
+                    <button type="button" class="btn btn-primary" id="revocation">撤销</button>
+                </div>    
+            </div>
+        </div>
+        <div class="bar-main">
+            <div class="createbill-upload-control upload-controls">
+                <div class="cpx-box-header">
+                    <span>报销单图片</span>
+                </div>
+                <div class="upload-control">
+                    <div class="upload-info">
+                        <div class="upload-btn">
+                            <a target="_blank" href="http://cpx-oss.oss-cn-beijing.aliyuncs.com/201604251608171033phpSalxlM.jpg">
+                                <img src="http://cpx-oss.oss-cn-beijing.aliyuncs.com/201604251608171033phpSalxlM.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-control">
+                <table class="table table-condensed table-bordered skt">
+                    <thead>
+                        <tr>
+                            <td class="col-1">物料编码</td>
+                            <td class="col-2">物料名称</td>
+                            <td class="col-3">规格</td>
+                            <td class="col-4">单价</td>
+                            <td class="col-5">数量</td>
+                            <td class="col-6">单位</td>
+                            <td class="col-7">小计</td>
+                        </tr>
+                    </thead>
+                    <tbody class="daylist">
+                        <tr class="inv">
+                            <td colspan="6">
+                                <div class="fold invfold" id="98765">
+                                    <span class="txt">发票号：121323123</span>
+                                    <span class="txt">发票代码：123213123</span>
+                                    <span class="txt">发票号码：121323123</span>
+                                    <span class="txt">发起人：张三</span>
+                                </div>
+                            </td>
+                            <td class="c-right">
+                                <span>400</span> 元
+                            </td>
+                        </tr>
+                        <tr class="invorder hidden time 98765">
+                            <td colspan="7" class="c-left">
+                                <span class="fold timefold" data-time="2014-05-01">2014-05-01</span>    
+                            </td>    
+                        </tr>
+                        <tr class="order hidden 2014-05-01">
+                            <td colspan="7">
+                                <span class="fold orderfold" id="123456789">采购入库单</span>
+                                <div class="orderm">
+                                    <span>400</span> 元
+                                </div>    
+                            </td>   
+                        </tr>
+                        <tr class="orderlist hidden 123456789">
+                            <td class="col-1">100100</td>
+                            <td class="col-2">五得利面粉</td>
+                            <td class="col-3">25KG/袋</td>
+                            <td class="col-4 c-right">100</td>
+                            <td class="col-5 c-right">10</td>
+                            <td class="col-6">袋</td>
+                            <td class="col-6 c-right money">200</td>
+                        </tr>
+                        <tr class="orderlist hidden 123456789">
+                            <td class="col-1">100100</td>
+                            <td class="col-2">五得利面粉</td>
+                            <td class="col-3">25KG/袋</td>
+                            <td class="col-4 c-right">100</td>
+                            <td class="col-5 c-right">10</td>
+                            <td class="col-6">袋</td>
+                            <td class="col-6 c-right money">200</td>
+                        </tr>       
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="7" class="total c-right">
+                                合计：<span id="totalM">400</span> 元    
+                            </td>    
+                        </tr>
+                    </tbody>
+                </table>        
+            </div>
+            <div class="approve-type-control">
+                <div class="approve-panel">
+                    <span>审批流程</span>
+                </div>
+                <ul class="approve-type-list">
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li>
+                        <span class="person"></span>
+                        <span class="des">这是审批话语，这是审批话语，这是审批话语。</span>   
+                    </li>
+                    <li>
+                        <span class="person">赵日天</span>
+                        <span class="status">审批通过</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                    <li class="last">
+                        <span class="person">赵日天</span>
+                        <span class="status">审批中</span>
+                        <span class="time">2015.11.16</span>
+                    </li>
+                </ul>    
+            </div>
+        </div>       
+    </div> 
+    <script type="text/javascript" src="../../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="../../../widget/modules/ligerui/base.js"></script>
+
+    <script type="text/javascript">
+        seajs.use('../../../widget/cpx_modules/purchase/balancedetail/balancedetail', function(balancedetail) {
+            balancedetail.init();
+        });
+    </script>  
+</body>
+</html>

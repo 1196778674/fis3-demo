@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+.cpx-form .control-group .controls span{
+	color: #fff;
+}
+.cpx-lossdetail-box .cpx-box-header .beAgree{
+  float: right;
+  border-top-right-radius: 5px;
+}
+.cpx-lossdetail-box .cpx-box-header .beReject{
+  float: right;
+  margin-right: 15px;
+}
+.cpx-lossdetail-box .cpx-search-info .form-group{
+	width: 32%;
+}
+.cpx-lossdetail-box .cpx-box-header .storagein-type{
+	background: #e4e8ee;
+    padding: 5px;
+    margin-left: 19px;
+    color: #528bee;
+}
+.cpx-lossdetail-box .cpx-box-header .beRuturn{
+	float: right;
+	border-top-right-radius: 4px; 
+}
+.cpx-lossdetail-box .cpx-search-form{
+	padding-bottom: 5px;
+}
+.cpx-lossdetail-box .table-bordered > tbody > tr > td{
+	padding: 14px 5px;
+}
+
+
+.cpx-lossdetail-box .table tbody td.col-1,
+.cpx-lossdetail-box .table thead td.col-1{
+  width: 85px;
+}
+.cpx-lossdetail-box .table tbody td.col-2,
+.cpx-lossdetail-box .table thead td.col-2{
+  width: 85px;   
+}
+.cpx-lossdetail-box .table tbody td.col-3,
+.cpx-lossdetail-box .table thead td.col-3{
+  width: 150px;   
+}
+.cpx-lossdetail-box .table tbody td.col-4,
+.cpx-lossdetail-box .table thead td.col-4{
+  width: 75px;   
+}
+.cpx-lossdetail-box .table tbody td.col-5,
+.cpx-lossdetail-box .table thead td.col-5{
+  width: 85px;   
+}
+.cpx-lossdetail-box .table tbody td.col-6,
+.cpx-lossdetail-box .table thead td.col-6{
+  width: 80px;   
+}
+.cpx-lossdetail-box .table tbody td.col-7,
+.cpx-lossdetail-box .table thead td.col-7{
+  width: 80px;   
+}
+.cpx-lossdetail-box .table tbody td.col-8,
+.cpx-lossdetail-box .table thead td.col-8{
+  width: 110px;   
+}
+.table tbody td.col-61, .table thead td.col-61{
+  width: 80px;
+}
+
+.cpx-lossdetail-box .table tr.title td{
+  text-align: right;
+  background: #4b5c69;
+  padding-right: 20px;
+}
+
+.cpx-lossdetail-box .table .more{
+	color: #00d202;
+}
+.cpx-lossdetail-box .table .less{
+	color: #ff100c;
+}

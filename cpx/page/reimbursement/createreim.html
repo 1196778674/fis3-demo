@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>发起报销</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../widget/cpx_modules/reimbursement/createreim/createreim.less">
+</head>
+<body>
+    <div class="wrapper createreim">
+        <div class="bar-top cpx-form clearfix">
+            <div class="form-group control-group">
+                <label class="control-label">报销类型:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="reimType">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">待审批人:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="approvePerson">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-right">
+                <button type="button" class="btn btn-primary" id="create">提交审批</button>
+            </div>
+        </div>
+        <div class="bar-main">
+            <div class="cpx-table-control grid-wrap" id="maingrid"></div> 
+            <div class="createbill-upload-control upload-controls">
+                <div class="cpx-box-header">
+                    <button type="button" class="btn btn-common" id="uploadPic">+添加图片</button>
+                    <span>每张图片最大10MB，支持jpg/gif/png格式</span>
+                </div>
+                <div class="upload-control">
+                    <div class="upload-info" id="picContainer">
+                        <!-- <div id="uploadPic1" class="upload-btn"></div> -->
+                    </div>
+                </div> 
+                <div class="upload-am">已上传 <span id="hasUploads">0</span> 张图片，最多6张</div> 
+            </div>
+        </div>       
+    </div> 
+    <script type="text/javascript" src="../../widget/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="../../widget/modules/sea/sea.js"></script>
+    <script type="text/javascript" src="../../widget/modules/temporary/common.js"></script>
+    <script type="text/javascript" src="./widget/modules/ligerui/base.js"></script>
+
+    <script type="text/javascript">
+        seajs.use('../../widget/cpx_modules/reimbursement/createreim/createreim', function(createreim) {
+            createreim.init();
+        });
+    </script>  
+</body>
+</html>

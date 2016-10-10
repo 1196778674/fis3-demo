@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+
+.op-div{
+	overflow: auto;
+    margin-bottom: 10px;
+}
+.op-div a{
+	float: right;
+    margin-left: 15px;
+    width: 90px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.op-div a:active,
+.op-div a:focus{
+	color: #fff;
+	background: #528bee !important;
+	border-color: #528bee !important;
+}
+
+.cpx-table-control{
+	margin-bottom: 20px;
+}
+.cpx-table-control p{
+	font-size: 14px;
+	color: #528bee;
+	margin-top: 3px;
+	margin-bottom: 3px;	
+}
+.table > thead > tr > td{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.table > tbody > tr > td{
+	padding: 5px 2px;
+}
+
+.table-striped > tbody > tr.active td{
+	background-color: #c2d9f1;
+}
+
+table td.col-1{width: 70px; }
+table td.col-2{width: 85px; }
+table td.col-3{width: 90px; }
+table td.col-4{width: 75px; }
+table td.col-5{width: 90px; }
+table td.col-6{width: 75px; }
+table td.col-7{width: 145px; }
+table td.col-8{width: 65px; }
+table td.col-9{width: 125px; }
+
+table td.active,
+p.active{
+	color: red;
+}
+
+table td input.form-control{
+	padding: 0 2px;
+	height: 25px;
+	text-align: center;
+	color: #666;
+}
+
+.import-dialog .ui-dialog-body{padding: 0;}
+.import-dialog .ui-dialog-footer button:first-child{margin-right: 50px;}
+
+

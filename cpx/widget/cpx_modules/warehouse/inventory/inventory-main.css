@@ -1,0 +1,48 @@
+@charset 'utf-8';
+
+.cpx-inventory-box .warntips{color: #ff7410;}
+.cpx-inventory-box .cpx-search-form{
+	padding-bottom: 15px;
+}
+.cpx-inventory-box .approve-type-select{
+	float: left;
+	position: relative;
+	width: 85px;
+    height: 25px;
+    margin-top: 5px;
+	margin-left: 20px;
+}
+.cpx-inventory-box .approve-type-select .select-icon{
+	background: #528bee;
+	color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.cpx-inventory-box .approve-type-select ul{
+	width: 85px;
+}
+.cpx-inventory-box form.approve-search-form .form-group{
+	margin-right: 15px;
+}
+.cpx-inventory-box .search-sub-btn{    
+	float: right;
+}
+.cpx-inventory-box a.search-sub-btn{
+	line-height: 23px;
+}
+.cpx-inventory-box .search-sub-btn#storeInDirect{width: 130px;}
+
+
+.cpx-inventory-box .cpx-box-header #initiate {
+    border-top-right-radius: 5px;
+}
+.cpx-inventory-box .btn#initiate span{
+	margin-right: 5px;
+}
+
+
+.ci-dialog .control-group .control-label{color: #333;}
+.ci-dialog .mdError{display: block; margin-bottom: 5px; color: red;}
+
+.ci-dialog .select-control .select-txt{display: block; padding-right: 20px; height: inherit;}
+.ci-dialog .select-control .select-icon{position: absolute; right: 0;}

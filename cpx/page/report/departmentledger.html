@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>部门总帐</title>
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.less">
+    <link rel="stylesheet" type="text/css" href="../../../widget/cpx_modules/report/departmentledger/departmentledger.less">
+</head>
+<body>
+<div class="wrapper departmentledger">
+    <div class="bar-top cpx-form clearfix">
+        <div class="cpx-form-info"> 
+            <div class="form-group control-group">
+                <label class="control-label">业务期间:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="businessPeriod">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">部门:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="department">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label">物料名称:</label>
+                <div class="controls">
+                    <div class="control">
+                        <span class="ui-combo-wrap" id="materialName">
+                            <input type="text" class="input-txt" autocomplete="off" data-ref="date">
+                            <i class="trigger"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <div class="control">
+                        <a href="javascript:;" class="ms-cnd dropdown" id="msCnd">更多条件</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-right">
+                <button type="button" class="btn btn-primary" id="search">查询</button>
+                <button type="button" class="btn btn-primary" id="export">导出</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加载表单数据 -->
+    <div class="cpx-table-control grid-wrap" id="maingrid"></div>
+</div>
+<script type="text/javascript" src="../../../widget/modules/jquery/jquery.js"></script>
+<script type="text/javascript" src="../../../widget/modules/sea/sea.js"></script>
+<script type="text/javascript" src="../../../widget/modules/temporary/common.js"></script>
+<script type="text/javascript" src="./widget/modules/ligerui/base.js"></script>
+
+<script type="text/javascript">
+    seajs.use('../../../widget/cpx_modules/report/departmentledger', function(departmentledger) {
+        departmentledger.init();
+    });
+</script>
+</body>
+</html>
