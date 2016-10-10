@@ -1,6 +1,3 @@
-## 新版详情页面 参考 采购详情 podetail.html 和老版本详情渲染一样。
-
-
 ## 项目启动
 
 1、安装nodeJs  自行安装;
@@ -12,18 +9,18 @@
 3、安装相关组件：
 
 	sudo npm install fis3-hook-cmd -g
-	sudo npm install -g fis-parser-handlebars-3.x 
+	sudo npm install -g fis-parser-handlebars-3.x
 	、、、如果还提醒安装什么 用 npm install -g xxx  自行安装
 
 4、启动服务
 
 	I: cd 到cpx 文件夹
 	II: fis3 release dev
-	III: fis3 server start 
+	III: fis3 server start
 
 5、访问：127.0.0.1:8080/index.html   //仅限于静态资源调试，如果有后台的话就按着后台的标准
 
-6、每次修改过代码以后要重新执行： 
+6、每次修改过代码以后要重新执行：
 
 	fis3 release dev
 
@@ -49,8 +46,8 @@
 				+reimbursement/		报销
 					+createreim/		发起报销------------子模块
 						createreim.js
-						createreim.less	
-				、、、			
+						createreim.less
+				、、、
 			+modules/			外部资源库
 			、、、
 
@@ -65,7 +62,7 @@
 		+cpx-modules/
 			+reimbursement/
 				+createreim/
-					+createreim.js 
+					+createreim.js
 					+createreim.less
 
 
@@ -75,13 +72,13 @@
 
 define(function(require, exports, module){
 
-	//使用一个 dialog(弹出框) seajs 模块 
+	//使用一个 dialog(弹出框) seajs 模块
 	var dialog = require('dialog');
-	
+
 });
 
 
-## 业务模块编写规范 
+## 业务模块编写规范
 # example test.js
 
 define(function(require, exports, module){
@@ -90,7 +87,7 @@ define(function(require, exports, module){
 		init: function() {
 			var self = this;
 
-			//初始化 和input相关的 placeholder 
+			//初始化 和input相关的 placeholder
 			@example
 			$('input').placeholder(); //id或class
 
@@ -115,10 +112,10 @@ define(function(require, exports, module){
 		initTableEvent: function() {},
 		reloadTable: function() {//点击查询时重新查询数据
             var self = this;
-            var searchData = this.getSearchData(); 
-            
+            var searchData = this.getSearchData();
+
             //self.grid.loadServerData(searchData);
-                
+
         },
 		getSearchData: function() {//返回查询所需字段
 			return {
@@ -143,7 +140,7 @@ define(function(require, exports, module){
 		title: '这是标题',
 		width: '宽度',
 		content: '这是弹出框里面的内容',
-		class: 'dialog增加class', //非必须	
+		class: 'dialog增加class', //非必须
 		button: [{
 			value: '确认',
 			callback: function() {//确认后的回调函数
@@ -162,8 +159,8 @@ define(function(require, exports, module){
 	    trigger: '#uploadPic', //上传按钮的id或者class
 	    data: {photoType: 'reimbursment'}, //上传参数
 	    action: 'http://web.com/web/upload/uploadImage', //提交路径
-	    beforeSend: function() { 
-	    	//上传前回调函数 非必须    
+	    beforeSend: function() {
+	    	//上传前回调函数 非必须
 	    }
 	}).success(function(res) {
 		//上传成功后回调函数
@@ -199,13 +196,13 @@ define(function(require, exports, module){
     @type options {
           template: 更多的内容,
           callbackConfirm: 确认后的回调函数,
-          afterInit: 初始化完成后的回调函数            
+          afterInit: 初始化完成后的回调函数
     }
 	dropdown(dom, {template, callbackConfirm, afterInit});
 	dropdown('#msCnd', {
         template: '<div>test</div>',
         callbackConfirm: function(){console.log('test');},
-        afterInit: function() {}    
+        afterInit: function() {}
     });
 
 # grid 初始化表格
@@ -234,7 +231,7 @@ define(function(require, exports, module){
         height: '100%', //表格高度
         url: searchUrl, //查询url
         parms: self.getSearchData(), //查询参数
-        contentType: 'json', 
+        contentType: 'json',
         method: 'get',
         columns: columns, 表格列
         //改变数据源的值
@@ -245,7 +242,7 @@ define(function(require, exports, module){
         record: 'total', // 总共条数
         rownumbers: true //航序号 默认显示
     });
-    
+
     详细api地址 ： http://api.ligerui.com/?to=grid
 
 # common.js
